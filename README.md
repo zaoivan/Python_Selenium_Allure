@@ -84,4 +84,4 @@ cd С:\projects\allure-2.19.0\bin\
 Итогом выполнения последней команды будет запуск и открытие в браузере страницы с отчетами ;)
 
 ## Автор
-Иван Заостровских ([@franklstone](https://t.me/franklstone))
+Иван Заостровских ([telegram](https://t.me/franklstone))
