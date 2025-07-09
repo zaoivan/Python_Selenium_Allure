@@ -1,0 +1,2 @@
+2025-07-09 21:11:29.496 | INFO     | tests.test_pokemon_web:test_positive_login:33 - Step 1. Wait for clickable email input, type email and password
+2025-07-09 21:11:29.783 | INFO     | tests.test_pokemon_web:test_positive_login:45 - Step 2. Press Enter to login
