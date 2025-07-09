@@ -53,6 +53,20 @@ pip install -r ./requirements.txt   # установка необходимых 
 
 ### 5. Подготовить валидные логин и пароль в файле ​​​​common/conf.py​​​​
 ### 6. Далее нужно создать каталог ​​​​my_allure_results​​​​ в папке проекта — там в дальнейшем появятся результаты прогона в виде JSON-файлов
+
+Add _--alluredir_ parameter to pytest settings.
+For example:
+```
+{
+    "python.testing.pytestArgs": [
+        "tests",
+        "--alluredir=my_allure_results"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
+```
+
 ### 7. Выполнение прогона автотестов с формированием отчета
 Вот так мы запустим позитивный тест на авторизацию - test_positive_login
 ``` markdown
