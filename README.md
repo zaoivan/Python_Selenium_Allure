@@ -94,7 +94,8 @@ cd С:\projects\allure-2.19.0\bin\ # первая команда — найти 
 .\allure serve С:\projects\pokemonbatlle\my_allure_results # вторая команда
 ```
 Итогом выполнения последней команды будет запуск и открытие в браузере страницы с отчетами ;)
-Какие-то тесты могут падать. Это не страшно, всегда есть что улучшать в коде :
+![image](https://raw.githubusercontent.com/zaoivan/Python_Selenium_Allure/refs/heads/main/static/allure_report.png)
+Какие-то тесты могут падать. Это не страшно, всегда есть что улучшать в коде :)
 
 ## Автор
 Иван Заостровских ([telegram](https://t.me/franklstone))
