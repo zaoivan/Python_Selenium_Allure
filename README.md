@@ -67,17 +67,17 @@ pytest tests/test_pokemon_web.py --alluredir=my_allure_results
 ### 8. Запуск Allure для визуализации результатов прогона автотестов
 Команды ниже написаны для Windows. Для macOS и Linux нужно заменить все "\" на "/"
 
-cd <путь до каталога allure\bin> # первая команда — найти путь к файлу
+cd <путь до каталога allure\bin>
 
 В моем случае это получилось так:
 ``` markdown
-cd С:\projects\allure-2.19.0\bin\
+cd С:\projects\allure-2.19.0\bin\ # первая команда — найти путь к файлу
 ```
-.\allure serve <путь до каталога с результатами> # вторая команда
+.\allure serve <путь до каталога с результатами>
 
 В моем случае это получилось так:
 ``` markdown
-.\allure serve С:\projects\pokemonbatlle\my_allure_results
+.\allure serve С:\projects\pokemonbatlle\my_allure_results # вторая команда
 ```
 Итогом выполнения последней команды будет запуск и открытие в браузере страницы с отчетами ;)
 
