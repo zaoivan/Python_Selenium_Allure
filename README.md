@@ -4,7 +4,7 @@
 Автоматизировать часть проверок на авторизацию на сайт https://pokemonbattle.ru/ и сформировать отчеты в Allure Report
 
 ## Подготовка
-В проекте используется VS Code и классический вариант Selenium WebDriver - фреймворк для программного взаимодействия с браузером. Актуальная документация и лучшие практики - на [сайте разработчиков](https://www.selenium.dev/documentation/webdriver/)
+В проекте используется VS Code и классический вариант Selenium WebDriver - фреймворк для программного взаимодействия с браузером. Также понадобится учетка в https://pokemonbattle.ru/. Актуальная документация и лучшие практики в Selenium WebDriver - на [сайте разработчиков](https://www.selenium.dev/documentation/webdriver/)
 
 ## Локальный запуск тестов (из терминала)
 
@@ -23,6 +23,16 @@ python -m venv env   # возможно не python, а python3
 ``` markdown
 .\env\Scripts\Activate.ps1
 ```
+> При активации виртуального окружения пользователи Windows могут столкнуться с невозможностью загрузить файл и ошибкой безопасности.
+> Решение 1: Запустите PowerShell от администратора и выполните:
+> ``` markdown
+> - Set-ExecutionPolicy RemoteSigned
+> ```
+> - На вопрос отвечаем: A (Да, для всех)
+> Решение 2: Выполнить команду:
+> ``` markdown
+> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+> ```
 * Второй. Переключиться в терминал cmd и выполнить команду
 ``` markdown
 .\env\Scripts\activate
